@@ -9,11 +9,27 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## delete
+## size
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Show possible space on triangle plot under HWE
+Explain why this is the case mathematically
+Shiny app: input HI and HET of 2 parents, output offspring HI and HET on plot
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Example with simulated data:
+1. See distribution of allele frequency differences
+2. Get names of AIMs
+3. Try multiple thresholds and get vcfRs
+4. Calculate HI and HET
+5. Compare triangle plots
+
+Shiny app: choose number of parental samples, d, and number of SNPs that pass (downsample), build triangle plot
+
+Example with real data:
+1. See distribution of allele frequency differences
+2. Try multiple thresholds and get vcfRs
+3. Calculate HI and HET
+4. Compare triangle plots
+5. Color by missing data
 
 ```{r cars}
 summary(cars)
@@ -29,6 +45,12 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
+<style>
+.shiny-app-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
 </style>
 

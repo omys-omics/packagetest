@@ -33,7 +33,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 .shiny-app-frame {
   position: relative;
   left: 0;
-  top: 50px;
+  top: 200px;
   bottom: 0;
   right: 0;
 }
@@ -45,6 +45,6 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 </style>
 
 <div class="shiny-app-frame"> 
-<iframe src="https://gallery.shinyapps.io/083-front-page">
+<iframe src="https://omys-omics.shinyapps.io/Hybrid_Offspring/">
 </iframe>
 </div>

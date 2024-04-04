@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## CHANGED
+## ABSOLUTE
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -31,7 +31,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 <style>
 .shiny-app-frame {
-  position: relative;
+  position: absolute;
   left: 0;
   top: 200px;
   bottom: 200px;

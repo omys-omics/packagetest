@@ -8,13 +8,17 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## smaller
+## 2000
 
 # Introduction
 
 ### Punnet Squares
 
 ### Hardy-Weinbergy Equilibrium
+
+```{r cars}
+library(ggplot2, quietly = T)
+```
 
 ### Try it out
 
@@ -72,7 +76,7 @@ Example with real data:
 </style>
 
 <div class="shiny-app-frame"> 
-<iframe src="https://omys-omics.shinyapps.io/Simulate_hybrid_parameters/" width="1000" height="1000">
+<iframe src="https://omys-omics.shinyapps.io/Simulate_hybrid_parameters/" width="1000" height="2000">
 </iframe>
 </div>
 

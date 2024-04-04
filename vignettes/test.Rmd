@@ -18,9 +18,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Try it out
 
-Show possible space on triangle plot under HWE
-Explain why this is the case mathematically
-Shiny app: input HI and HET of 2 parents, output offspring HI and HET on plot
 
 Example with simulated data:
 1. See distribution of allele frequency differences
@@ -31,12 +28,7 @@ Example with simulated data:
 
 Shiny app: choose number of parental samples, d, and number of SNPs that pass (downsample), build triangle plot
 
-Example with real data:
-1. See distribution of allele frequency differences
-2. Try multiple thresholds and get vcfRs
-3. Calculate HI and HET
-4. Compare triangle plots
-5. Color by missing data
+
 
 ```{r cars}
 summary(cars)
@@ -54,9 +46,38 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 
 
+
 </style>
 
 <div class="shiny-app-frame"> 
 <iframe src="https://omys-omics.shinyapps.io/Hybrid_Offspring/" width="1000" height="1000">
 </iframe>
 </div>
+
+
+
+Example with real data:
+1. See distribution of allele frequency differences
+2. Try multiple thresholds and get vcfRs
+3. Calculate HI and HET
+4. Compare triangle plots
+5. Color by missing data
+
+### Try changing parameters to see how they impact hybrid identification
+
+
+
+
+
+</style>
+
+<div class="shiny-app-frame"> 
+<iframe src="https://omys-omics.shinyapps.io/Simulate_hybrid_parameters/" width="1000" height="1000">
+</iframe>
+</div>
+
+
+
+
+
+

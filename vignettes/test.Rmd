@@ -8,7 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## PERCENT%%%%%%%%%%%%%%%
+## fix
 
 # Introduction
 
@@ -57,6 +57,6 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 </style>
 
 <div class="shiny-app-frame"> 
-<iframe src="https://omys-omics.shinyapps.io/Hybrid_Offspring/" width="90%" height="100%">
+<iframe src="https://omys-omics.shinyapps.io/Hybrid_Offspring/" width="1000" height="1000">
 </iframe>
 </div>

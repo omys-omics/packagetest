@@ -8,15 +8,15 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## fix
+## smaller
 
 # Introduction
 
-## Punnet Squares
+### Punnet Squares
 
-## Hardy-Weinbergy Equilibrium
+### Hardy-Weinbergy Equilibrium
 
-## Try it out
+### Try it out
 
 Show possible space on triangle plot under HWE
 Explain why this is the case mathematically

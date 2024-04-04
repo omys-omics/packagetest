@@ -80,15 +80,19 @@
     
     
 <div class="section level2">
-<h2 id="delete">delete<a class="anchor" aria-label="anchor" href="#delete"></a>
+<h2 id="size">size<a class="anchor" aria-label="anchor" href="#size"></a>
 </h2>
-<p>This is an R Markdown document. Markdown is a simple formatting
-syntax for authoring HTML, PDF, and MS Word documents. For more details
-on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="external-link uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be
-generated that includes both content as well as the output of any
-embedded R code chunks within the document. You can embed an R code
-chunk like this:</p>
+<p>Show possible space on triangle plot under HWE Explain why this is
+the case mathematically Shiny app: input HI and HET of 2 parents, output
+offspring HI and HET on plot</p>
+<p>Example with simulated data: 1. See distribution of allele frequency
+differences 2. Get names of AIMs 3. Try multiple thresholds and get
+vcfRs 4. Calculate HI and HET 5. Compare triangle plots</p>
+<p>Shiny app: choose number of parental samples, d, and number of SNPs
+that pass (downsample), build triangle plot</p>
+<p>Example with real data: 1. See distribution of allele frequency
+differences 2. Try multiple thresholds and get vcfRs 3. Calculate HI and
+HET 4. Compare triangle plots 5. Color by missing data</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">cars</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">##      speed           dist       </span></span>
@@ -107,7 +111,14 @@ chunk like this:</p>
 <p>Note that the <code>echo = FALSE</code> parameter was added to the
 code chunk to prevent printing of the R code that generated the
 plot.</p>
+<style>
+.shiny-app-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
+</style>
 <div class="shiny-app-frame">
 <iframe src="https://omys-omics.shinyapps.io/Hybrid_Offspring/">
 </iframe>
